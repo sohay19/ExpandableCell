@@ -13,6 +13,10 @@
 		CFD1B3442976721C00167A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD1B3422976721C00167A80 /* Main.storyboard */; };
 		CFD1B3462976721E00167A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD1B3452976721E00167A80 /* Assets.xcassets */; };
 		CFD1B3492976721E00167A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD1B3472976721E00167A80 /* LaunchScreen.storyboard */; };
+		CFD1B352297672BD00167A80 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1B350297672BD00167A80 /* ExpandableCell.swift */; };
+		CFD1B353297672BD00167A80 /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD1B351297672BD00167A80 /* ExpandableCell.xib */; };
+		CFD1B3572976765500167A80 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1B3562976765500167A80 /* Enums.swift */; };
+		CFD1B3592976766F00167A80 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1B3582976766F00167A80 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CFD1B3452976721E00167A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD1B3482976721E00167A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD1B34A2976721E00167A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD1B350297672BD00167A80 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		CFD1B351297672BD00167A80 /* ExpandableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
+		CFD1B3562976765500167A80 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CFD1B3582976766F00167A80 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				CFD1B33C2976721C00167A80 /* AppDelegate.swift */,
 				CFD1B33E2976721C00167A80 /* SceneDelegate.swift */,
-				CFD1B3402976721C00167A80 /* ViewController.swift */,
 				CFD1B3422976721C00167A80 /* Main.storyboard */,
+				CFD1B3402976721C00167A80 /* ViewController.swift */,
 				CFD1B3452976721E00167A80 /* Assets.xcassets */,
 				CFD1B3472976721E00167A80 /* LaunchScreen.storyboard */,
 				CFD1B34A2976721E00167A80 /* Info.plist */,
+				CFD1B350297672BD00167A80 /* ExpandableCell.swift */,
+				CFD1B351297672BD00167A80 /* ExpandableCell.xib */,
+				CFD1B3562976765500167A80 /* Enums.swift */,
+				CFD1B3582976766F00167A80 /* UserData.swift */,
 			);
 			path = ExpandableCell;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				CFD1B3492976721E00167A80 /* LaunchScreen.storyboard in Resources */,
 				CFD1B3462976721E00167A80 /* Assets.xcassets in Resources */,
+				CFD1B353297672BD00167A80 /* ExpandableCell.xib in Resources */,
 				CFD1B3442976721C00167A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD1B352297672BD00167A80 /* ExpandableCell.swift in Sources */,
 				CFD1B3412976721C00167A80 /* ViewController.swift in Sources */,
 				CFD1B33D2976721C00167A80 /* AppDelegate.swift in Sources */,
+				CFD1B3572976765500167A80 /* Enums.swift in Sources */,
 				CFD1B33F2976721C00167A80 /* SceneDelegate.swift in Sources */,
+				CFD1B3592976766F00167A80 /* UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
